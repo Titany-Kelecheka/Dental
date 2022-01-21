@@ -94,6 +94,14 @@ top: 58px;
 	font-weight: 500;
 }
 
+.fas {
+	position: absolute;
+right: -300px;
+width: 60px;
+height: 60px;
+
+}
+
 .hero {
   width: 730px;
   margin: 0 auto;
