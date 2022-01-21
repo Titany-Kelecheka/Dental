@@ -82,11 +82,16 @@ top: 58px;
 
 .menu-link {
     font-style: normal;
-    font-weight: 500;
     font-size: 18px;
     line-height: 24px;
     color: #FFFFFF;
-  text-decoration: none;
+    text-decoration: none;
+		display: inline-block;
+		vert
+}
+
+.menu-link active {
+	font-weight: 500;
 }
 
 .hero {
