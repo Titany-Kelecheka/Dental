@@ -160,54 +160,41 @@ border-radius: 60px;
 }
 
 
-.container{
-  width: 1440px;
-  margin: 0 auto;
-  display: flex;
-  padding: 130px 100px 130px 100px;
- 
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.appointment-form{
-  margin-left: 50px;
-  width: 600px;  
+.two-blocks{
+  position: absolute;
+  display: flex;
+  top: 3031px;
 }
 
 .appointment-title{
-font-style: normal;
-font-weight: normal;
-font-size: 70px;
-line-height: 80px;
-color: rgba(34, 34, 34, 1);
-}
-
-input[name="book-now"]{
-height: 56px;
-width: 150px;
-left: 750px;
-border-radius: 60px;
-width: 150px;
-height: 56px;
-background: #1D79E4;
-margin-top: 48px;
-}
-
-input[name="fullname"]{
-  margin-right: 24px;
-}
-
-input[name="date"]{
-  margin-right: 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 80px;
+  padding: 0 0 35px 50px;
+  width: 583.38px;
 }
 
 select{
-  margin: 35px 25px 40px 0px;
-  padding: 4px 0px 4px 0px;
-  width: 250px;    
+  width: 250px;
+  height: 34px;
+  margin: 35px 0 40px 50px;
 }
 
 input{
-  width: 256px;
-  padding: 4px 0 4px 0px;
-  margin-bottom: 35px;
+  width: 250px;
+  height: 34px;
+  margin: 0 0 40px 50px;
+}
+
+input[name="book-now"]{
+  border-radius: 60px;
+  background-color: rgba(29, 121, 228, 1);
+  width: 150px;
+  height: 56px;
 }
