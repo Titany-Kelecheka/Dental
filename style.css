@@ -208,6 +208,59 @@ input[name="book-now"]{
   height: 56px;
 }
 
+/*  ****Feedback section**** */
+.title
+{
+    font-family: Reem Kufi;
+    font-style: Regular;
+    font-size: 70px;
+    Line height: 80px;
+    Line height: 76%;
+    
+}
+.frame
+{
+    position: absolute;
+    width: 132px;
+    height: 20px;
+    left: 300;
+    left: 600px;
+    top: 165px;
+}
+
+.content
+{
+    position: absolute;
+    width: 786.76px;
+    height: 120px;
+    left: 326.62px;
+    top: 250px;
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #555555;
+}
+.photo
+{
+    
+    position: absolute;
+    width: 517.83px;
+    height: 127.83px;
+    left: 461px;
+    top: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+.photo_inner
+{
+    width: 500px; ;
+    height: 130px; ;
+    border-radius: 150px;
+    background-color: blue;
+}
 
 /*   ****Footer section**** */
 
